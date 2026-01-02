@@ -7,11 +7,11 @@ try:
         
     def process(self):
         if self.n1>self.n2 and self.n3:
-            print(f"{self.n1} is grater then {self.n2} and {self.n3}")
+            print(f"{self.n1} is greater then {self.n2} and {self.n3}")
         elif self.n2>self.n3 and self.n1:
-            print(f"{self.n2} is grater then {self.n1} and {self.n3}")
+            print(f"{self.n2} is greater then {self.n1} and {self.n3}")
         elif self.n3>self.n1 and self.n2:
-            print(f"{self.n3} is grater then {self.n1} and {self.n2}")
+            print(f"{self.n3} is greater then {self.n1} and {self.n2}")
             
  num=fln()
  num.getdata()
