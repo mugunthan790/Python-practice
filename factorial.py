@@ -1,20 +1,24 @@
-
-class factorial:
+try:
+ class factorial:
     def getdata(self):
-        self.num=int(input("Enter the number:"))
+        self.n=int(input("Enter the number:"))
     def process(self):
-        if self.num<0:
-            print(f"cannot find factorial of {self.num}")
+        if self.n<0:
+            print(f"cannot find factorial of {self.n}")
         else:
          self.fact=1
-         for i in range(1,self.num+1):
+         for i in range(1,self.n+1):
              self.fact*=i
              print(self.fact)
              
          
-num1=factorial()
-num1.getdata()
-num1.process()
+ num=factorial()
+ num.getdata()
+ num.process()
+except Exception as e:
+    print(f"invalid option {e}")
+finally:
+    print("done")
 
          
         
