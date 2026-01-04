@@ -1,4 +1,5 @@
-class prime:
+try:
+ class prime:
     def getdata(self):
         self.num=int(input("Enter the number:"))
         
@@ -15,6 +16,10 @@ class prime:
         else:
             print(f"{self.num} is not a prime number")
                     
-num1=prime()
-num1.getdata()
-num1.process()
+ num1=prime()
+ num1.getdata()
+ num1.process()
+except Exception as e:
+    print(f"invalid option {e}")
+finally:
+    print("Done")
