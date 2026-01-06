@@ -6,10 +6,10 @@ try:
         if self.n<0:
             print(f"cannot find factorial of {self.n}")
         else:
-         self.fact=1
+         self.f=1
          for i in range(1,self.n+1):
-             self.fact*=i
-             print(self.fact)
+             self.f*=i
+             print(self.f)
              
          
  num=factorial()
