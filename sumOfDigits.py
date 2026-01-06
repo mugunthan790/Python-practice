@@ -1,7 +1,12 @@
-
-def fun(n):
+try:
+ def fun(n):
     if n == 0:
         return 0  
     return (n % 10) + fun(n // 10)
-
-print(fun(n))
+ n=1234
+ print(fun(n))
+ 
+except Exception as e:
+    print(f"invallid option{e}")
+finally:
+    print("exit")
