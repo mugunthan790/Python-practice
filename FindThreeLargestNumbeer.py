@@ -1,5 +1,5 @@
 try:
- class fln:
+ class LargestNumber:
     def getdata(self):
         self.n1=int(input("Enter 1st number:"))
         self.n2=int(input("Enter 2nd number:"))
@@ -13,7 +13,7 @@ try:
         elif self.n3>self.n1 and self.n2:
             print(f"{self.n3} is greater then {self.n1} and {self.n2}")
             
- num=fln()
+ num=LargestNumber()
  num.getdata()
  num.process()
 except Exception as e:
