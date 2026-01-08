@@ -1,4 +1,5 @@
-class palindrome():
+try:
+ class palindrome():
     def getdata(self):
         self.value=input("Enter:")
     def process(self):
@@ -7,6 +8,10 @@ class palindrome():
             print("it's a palindrome")
         else:
             print("it's not a palindrome")
-value1=palindrome()
-value1.getdata()
-value1.process()
+ value1=palindrome()
+ value1.getdata()
+ value1.process()
+except Exception as a :
+    print(f"invalid option {a}")
+finally:
+    print("exit")
