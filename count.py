@@ -14,3 +14,5 @@ try:
  count1.process()
 except Exception as a:
     print(f"invalid input {a}")
+finally:
+    print("exit")
