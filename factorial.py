@@ -1,13 +1,13 @@
 try:
  class factorial:
     def getdata(self):
-        self.n=int(input("Enter the number:"))
+        self.num=int(input("Enter the number:"))
     def process(self):
-        if self.n<0:
-            print(f"cannot find factorial of {self.n}")
+        if self.num<0:
+            print(f"cannot find factorial of {self.num}")
         else:
          self.f=1
-         for i in range(1,self.n+1):
+         for i in range(1,self.num+1):
              self.f*=i
              print(self.f)
              
