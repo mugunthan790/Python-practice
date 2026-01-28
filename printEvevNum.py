@@ -1,7 +1,7 @@
 try:
  class eve:
      def getdata(self):
-        self.num=int(input("enter the number:"))
+        self.num=int(input("Enter the Number:"))
         
      def process(self):
         for i in range(1,self.num+1):
@@ -11,6 +11,6 @@ try:
  num1.getdata()
  num1.process()
 except Exception as e:
-    print( f"invalid option {e}")
+    print( f"Invalid Option {e}")
 finally:
     print("done")
