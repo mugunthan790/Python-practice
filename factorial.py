@@ -1,7 +1,7 @@
 try:
  class factorial:
     def getdata(self):
-        self.num=int(input("Enter the number:"))
+        self.num=int(input("Enter the Number:"))
     def process(self):
         if self.num<0:
             print(f"cannot find factorial of {self.num}")
@@ -18,7 +18,7 @@ try:
 except Exception as e:
     print(f"invalid option {e}")
 finally:
-    print("done")
+    print("done !")
 
          
         

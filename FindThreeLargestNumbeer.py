@@ -1,17 +1,17 @@
 try:
  class LargestNumber:
     def getdata(self):
-        self.n1=int(input("Enter 1st number:"))
-        self.n2=int(input("Enter 2nd number:"))
-        self.n3=int(input("Enter 3rd number:"))
+        self.num1=int(input("enter 1st number:"))
+        self.num2=int(input("Enter 2nd number:"))
+        self.num3=int(input("Enter 3rd number:"))
         
     def process(self):
-        if self.n1>self.n2 and self.n3:
-            print(f"{self.n1} is greater then {self.n2} and {self.n3}")
-        elif self.n2>self.n3 and self.n1:
-            print(f"{self.n2} is greater then {self.n1} and {self.n3}")
-        elif self.n3>self.n1 and self.n2:
-            print(f"{self.n3} is greater then {self.n1} and {self.n2}")
+        if self.num1>self.num2 and self.num3:
+            print(f"{self.num1} is greater then {self.num2} and {self.num3}")
+        elif self.num2>self.num3 and self.num1:
+            print(f"{self.num2} is greater then {self.num1} and {self.num3}")
+        elif self.num3>self.num1 and self.num2:
+            print(f"{self.num3} is greater then {self.num1} and {self.num2}")
             
  num=LargestNumber()
  num.getdata()

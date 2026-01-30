@@ -5,7 +5,7 @@ try:
     def cal(self):
         self.f=(self.c*9/5)+32
     def display(self):
-        print(f"the fahrenhite of {self.c} celsius is : {self.f}")
+        print(f"The Fahrenhite of {self.c} Celsius is : {self.f}")
  find=temp()
  find.getdata()
  find.cal()

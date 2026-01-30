@@ -1,7 +1,7 @@
 try:
  class count():
     def getdata(self):
-       self.num=int(input("enter the number:"))
+       self.num=int(input("Enter the Number:"))
     def process(self):
         self.count=0
         for self.i in range(1,self.num+1):
