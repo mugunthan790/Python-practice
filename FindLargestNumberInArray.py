@@ -1,4 +1,5 @@
-class largestnum:
+try:
+ class largestnum:
     def getdata(self):
       self.num=[]
       for i in range(1,4):
@@ -12,7 +13,11 @@ class largestnum:
      else:
       print(f"{self.num[2]} is largest")
       
-n=largestnum()
-n.getdata()
-n.process()
+ n=largestnum()
+ n.getdata()
+ n.process()
+except Exception as a:
+    print(f"invallid option {a}")
+finally:
+    print("done")
       
