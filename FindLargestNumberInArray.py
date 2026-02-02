@@ -7,11 +7,11 @@ try:
       print(self.num)
     def process(self):
      if self.num[0]>self.num[1]and self.num[0]>self.num[2]:
-      print(f"{self.num[0]} is largest")
+      print(f"{self.num[0]} is Largest")
      elif self.num[1]>self.num[0] and self.num[1]>self.num[2]:
-      print(f"{self.num[1]} is largest")
+      print(f"{self.num[1]} is Largest")
      else:
-      print(f"{self.num[2]} is largest")
+      print(f"{self.num[2]} is Largest")
       
  n=largestnum()
  n.getdata()
