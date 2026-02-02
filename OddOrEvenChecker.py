@@ -1,6 +1,6 @@
 class oe:
     def getdata(self):
-        self.num=int(input("Enter the number:"))
+        self.num=int(input("Enter the Number:"))
         
     def process(self):
         if self.num%2==0:
