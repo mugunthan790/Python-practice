@@ -9,4 +9,4 @@ try:
 except Exception as e:
     print(f"Invallid Option{e}")
 finally:
-    print("exit")
+    print("Exit")
