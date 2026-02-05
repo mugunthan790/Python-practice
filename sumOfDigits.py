@@ -7,6 +7,6 @@ try:
  print(fun(n))
  
 except Exception as e:
-    print(f"invallid option{e}")
+    print(f"Invallid Option{e}")
 finally:
     print("exit")
