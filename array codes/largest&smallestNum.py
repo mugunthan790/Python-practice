@@ -1,6 +1,8 @@
 a=[]
-for i in range(1,5):
-    a.append(int(input(f"enter the number {i}: ")))
+n=int(input("enter the element:"))
+for j in range(1,n+1):
+    a.append(int(input(f"Enter the number {j}:")))
+print()
 print(a)
 print()
 print(f"the largest num is: {max (a)}")
