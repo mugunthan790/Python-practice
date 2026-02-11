@@ -1,7 +1,7 @@
 a=[]
-n=int(input("enter the element:"))
+n=int(input("Enter The Element:"))
 for j in range(1,n+1):
-    a.append(int(input(f"Enter the number {j}:")))
+    a.append(int(input(f"Enter The Number {j}:")))
 print()
 print(a)
 print()
