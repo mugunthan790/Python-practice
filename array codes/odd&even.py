@@ -1,4 +1,4 @@
-a=int(input("Enter the range:"))
+a=int(input("Enter the Range:"))
 print()
 print("odd numbers:")
 odd=[]
@@ -7,7 +7,7 @@ for j in range(1,a+1):
         odd.append(j)
 print(odd)
 length=len(odd)
-print(f"the count of odd numbers :{length}")
+print(f"The Count of Odd Numbers :{length}")
 print()
 print("even numbers:")
 even=[]
