@@ -16,4 +16,4 @@ for i in range(1,a+1):
         even.append(i)
 print(even)
 length1=len(even)
-print(f"the count of even numbers :{length1}")
+print(f"The Count of Even Numbers :{length1}")
