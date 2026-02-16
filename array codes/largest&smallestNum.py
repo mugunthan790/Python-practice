@@ -5,5 +5,5 @@ for j in range(1,n+1):
 print()
 print(a)
 print()
-print(f"the largest num is: {max (a)}")
-print(f"the smallest num is: {min (a)}")
+print(f"the Largest number is: {max (a)}")
+print(f"the Smallest number is: {min (a)}")
