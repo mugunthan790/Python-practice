@@ -1,6 +1,6 @@
-a=int(input("Enter the Range:"))
+a=int(input("Enter The Range:"))
 print()
-print("odd numbers:")
+print("Odd Numbers:")
 odd=[]
 for j in range(1,a+1):
     if j%2!=0:
