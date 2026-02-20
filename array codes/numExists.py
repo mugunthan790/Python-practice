@@ -1,9 +1,9 @@
 a=[]
-num=int(input("Enter the elements:"))
+num=int(input("Enter The Elements:"))
 print()
 for i in range(1,num+1):
-    a.append(int(input(f"Enter the number {i} :")))
-key=int(input("enter the search number:"))
+    a.append(int(input(f"Enter The Number {i} :")))
+key=int(input("Enter The Search Number:"))
 print()
 found=False
 for j in a:
