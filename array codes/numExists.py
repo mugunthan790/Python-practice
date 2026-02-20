@@ -11,6 +11,6 @@ for j in a:
       found=True
       break
 if found:
-    print(f"The number {key} is exists")
+    print(f"The Number {key} Is Exists")
 else:
-    print(f"the number {key} is not exists")
+    print(f"The Number {key} Is Not Exists")
