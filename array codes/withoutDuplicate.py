@@ -1,6 +1,6 @@
 try:
  a=[]
- e=int(input("Enter the number of elements :"))
+ e=int(input("Enter the Number of Elements :"))
  for i in range(1,e+1):
     a.append(int(input(f"enter the value {i} :")))
  print(a)
