@@ -7,6 +7,6 @@ try:
  unique_value=list(set(a))
  print(f"The Output Without  Duplicate values: {unique_value}")
 except Exception as s:
-    print(f"invalid input {s}")
+    print(f"Invalid Input {s}")
 finally:
     print("done")
