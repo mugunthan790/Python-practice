@@ -5,7 +5,7 @@ try:
     a.append(int(input(f"Enter The Value {i} :")))
  print(a)
  unique_value=list(set(a))
- print(f"The Output Without  Duplicate values: {unique_value}")
+ print(f"The Output Without  Duplicate Values: {unique_value}")
 except Exception as s:
     print(f"Invalid Input {s}")
 finally:
