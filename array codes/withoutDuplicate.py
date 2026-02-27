@@ -9,4 +9,4 @@ try:
 except Exception as s:
     print(f"Invalid Input {s}")
 finally:
-    print("Done")
+    print("DONE")
