@@ -5,4 +5,4 @@ print(a)
 total=0
 for j in a:
     total+=j
-print(f"The sum of all numbres : {total}")
+print(f"The Sum Of All Numbres : {total}")
