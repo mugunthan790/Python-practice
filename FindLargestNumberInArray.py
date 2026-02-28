@@ -17,7 +17,7 @@ try:
  n.getdata()
  n.process()
 except Exception as a:
-    print(f"invallid option {a}")
+    print(f"Invallid Option {a}")
 finally:
     print("done")
       
