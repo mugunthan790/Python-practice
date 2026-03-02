@@ -9,7 +9,7 @@ print(odd)
 length=len(odd)
 print(f"The Count of Odd Numbers :{length}")
 print()
-print("even numbers:")
+print("Even Numbers:")
 even=[]
 for i in range(1,a+1):
     if i%2==0:
