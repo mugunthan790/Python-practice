@@ -2,7 +2,7 @@ a=[]
 num=int(input("Enter The Elements:"))
 print()
 for i in range(1,num+1):
-    a.append(int(input(f"Enter The Number {i} :")))
+    a.append(int(input(f"Enter The number {i} :")))
 key=int(input("Enter The Search Number:"))
 print()
 found=False
