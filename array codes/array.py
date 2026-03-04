@@ -1,5 +1,5 @@
 a=[]
 for i in range(1,6):
-    a.append(int( input(f"Enter the no {i}:")))
+    a.append(int( input(f"Enter The number {i}:")))
 for j in a:
     print(j)
