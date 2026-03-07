@@ -11,7 +11,7 @@ try:
  execute.getdata()
  execute.process()
 except Exception as a:
-    print(f"invalid option {a}")
+    print(f"Invalid option {a}")
 finally:
     print("exit")
         
