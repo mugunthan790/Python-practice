@@ -17,6 +17,6 @@ try:
  num.getdata()
  num.process()
 except Exception as e:
-    print("invalid",e)
+    print("Invalid",e)
 finally:
     print("done")
