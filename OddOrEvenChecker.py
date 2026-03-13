@@ -6,7 +6,7 @@ class oe:
         if self.num%2==0:
             print(f"{self.num} is Even Number")
         else:
-            print(f"{self.num} is Odd Number")
+            print(f"{self.num} is odd Number")
             
 num1=oe()
 num1.getdata()
