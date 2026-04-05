@@ -1,7 +1,7 @@
 try: 
  class tables:
     def getdata(self):
-        self.n=int(input("Enter the number:"))
+        self.n=int(input("Enter The Number:"))
         
     def process(self):
         for i in range(1,11):
