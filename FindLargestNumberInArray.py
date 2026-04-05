@@ -7,7 +7,7 @@ try:
       print(self.num)
     def process(self):
      if self.num[0]>self.num[1]and self.num[0]>self.num[2]:
-      print(f"{self.num[0]} is Largest")
+      print(f"{self.num[0]} Is Largest")
      elif self.num[1]>self.num[0] and self.num[1]>self.num[2]:
       print(f"{self.num[1]} is Largest")
      else:
