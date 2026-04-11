@@ -13,6 +13,6 @@ try:
 except Exception as a:
     print(f"Invalid option {a}")
 finally:
-    print("exit")
+    print("Exit")
         
             
