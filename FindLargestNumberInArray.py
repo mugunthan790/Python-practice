@@ -19,5 +19,5 @@ try:
 except Exception as a:
     print(f"Invallid Option {a}")
 finally:
-    print("done")
+    print("Done")
       
