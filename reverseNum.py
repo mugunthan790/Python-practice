@@ -11,6 +11,6 @@ try:
  num1.process()
  num1.display()
 except Exception as e:
-    print(f"Invalid option {e}")
+    print(f"Invalid Option {e}")
 finally:
     print("Exit")
