@@ -1,4 +1,4 @@
-a=int(input("Enter The Range:"))
+a=int(input("Enter The Range :"))
 print()
 print("Odd Numbers:")
 odd=[]
